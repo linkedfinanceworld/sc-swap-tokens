@@ -1,6 +1,4 @@
-# develop-smart-contracts
-
-+ Deploy order
+# Deployment order
 
 Factory => Swappair => Router
 
@@ -15,11 +13,11 @@ Factory => Swappair => Router
 ------------------------------------------------------------
 
 
-+ How to deploy using hardhat
+# deploy using hardhat
 
 npx hardhat run scripts/deploy.js --network bsc-testnet
 
-+ How to verify using hardhat
+# verify using hardhat
 
 npx hardhat verify --network bsc-testnet SC_Address
 
